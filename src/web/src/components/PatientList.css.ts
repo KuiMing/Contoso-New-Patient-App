@@ -20,8 +20,14 @@ export const group = style({
 
   selectors: {
     "&:nth-child(even)": {
-      backgroundColor: "#f9f9f9",
+      backgroundColor: "#000",
     },
+    "&:nth-child(odd)": {
+      backgroundColor: "#242424",
+    },
+    "&:nth-child(1)": {
+      backgroundColor: "#5a5a5a",
+    }
   },
 });
 
