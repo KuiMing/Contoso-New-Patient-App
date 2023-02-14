@@ -83,5 +83,11 @@ globalStyle("table", {
 });
 
 globalStyle("table tr:nth-child(odd)", {
-  backgroundColor: "#f5f5f5",
+  backgroundColor: "#242424",
+});
+globalStyle("table tr:nth-child(even)", {
+  backgroundColor: "#000",
+});
+globalStyle("table thead tr:nth-child(1)", {
+  backgroundColor: "#5a5a5a",
 });
